@@ -26,9 +26,8 @@ namespace StockPriceListYTDDTest
         }
 
         [TestMethod]
-        public virtual void GetIndustries()
+        public virtual void ŽŽ‚µ()
         {
-            var mock = new Mock<StockPriceListYTDRepository>();
             List<Industry> expectedIndustries  = new List<Industry>();
             for (int i = 0; i < 33; i++) expectedIndustries.Add(new Industry());
 
